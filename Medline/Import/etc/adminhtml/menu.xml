@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="Medline_Import::parent" title="Medline" module="Medline_Import" sortOrder="100" resource="Medline_Import::parent"/>
+       <add id="Medline_Import::import" title="Import" module="Medline_Import" sortOrder="20" parent="Medline_Import::parent" action="import/import" resource="Medline_Import::import"/>
+
+    </menu>
+</config>

@@ -1,0 +1,8 @@
+
+<form action="<?php echo $block->getUrl('import/import/import') ?>" method="post" enctype="multipart/form-data">
+    <input name="form_key" type="hidden" value="<?php echo $block->getFormKey() ?>">
+    Select Json To Upload:
+    <input type="file" name="my_custom_file" id="my_custom_file">    
+    <input type="submit" value="Import" name="submit">
+</form>
+
