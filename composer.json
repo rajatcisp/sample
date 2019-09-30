@@ -14,9 +14,4 @@
       "role": "Developer"
     }
   ],
-  "autoload": {
-    "files": [
-      "registration.php"
-    ],
-  }
 }
